@@ -40,10 +40,6 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section.self-introduction {
-    background-color: #e0e0e0; /* 修改 Self Introduction 部分背景颜色 */
-}
-
 section h2 {
     text-align: center;
 }
