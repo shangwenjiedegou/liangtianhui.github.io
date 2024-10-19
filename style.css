@@ -40,6 +40,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section.self-introduction{
+    background-color:#ebe5d0;
+}
+
 section h2 {
     text-align: center;
 }
