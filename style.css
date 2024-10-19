@@ -32,16 +32,12 @@ main {
     padding: 20px;
 }
 
-section.self-introduction {
-    background-color: #ebe5d0; /* Self Introduction 部分背景颜色 */
-}
-
-section.personal-label {
-    background-color: #63938c; /* Personal Label 部分背景颜色 */
-}
-
-section.contact-me {
-    background-color: #2e303f; /* Contact Me 部分背景颜色 */
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
