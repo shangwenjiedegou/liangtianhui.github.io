@@ -21,34 +21,27 @@ header h1 {
     font-size: 24px;
 }
 
-.intro-image {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
-
 main {
     padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     text-align: center;
 }
 
-.self-intro-image {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
+section.self-introduction {
+    background-color: #e0e0e0;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-row img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
 }
 
 footer {
@@ -70,17 +63,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.photo-row {
-    display: flex;
-    justify-content: space-around;
-}
-
-.photo-row img {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
-}
-
-.intro-paragraph {
-    text-indent: 2em;
+ul li:first-child {
+    list-style-type: none;
 }
