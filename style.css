@@ -12,6 +12,7 @@ header {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #77C1E3 3px solid;
+    position: relative;
 }
 
 header h1 {
@@ -22,13 +23,11 @@ header h1 {
 }
 
 .profile-picture {
-    width: 50%;
-    /* 使高度与宽度一致，形成正方形 */
-    padding-top: 50%;
-    position: relative;
-    border-radius: 50%;
-    margin: 20px 0 0 20px;
-    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    left: 25%;
 }
 
 main {
