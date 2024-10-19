@@ -12,7 +12,6 @@ header {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #77C1E3 3px solid;
-    position: relative;
 }
 
 header h1 {
@@ -22,12 +21,9 @@ header h1 {
     font-size: 24px;
 }
 
-.left-image {
-    width: 20%;
-    height: auto;
-    position: absolute;
-    top: 70px;
-    left: 0;
+.intro-image {
+    display: block;
+    margin: 10px auto;
 }
 
 main {
