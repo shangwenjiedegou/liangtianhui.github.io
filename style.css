@@ -44,6 +44,13 @@ section h2 {
     text-align: center;
 }
 
+.self-intro-image {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
 footer {
     text-align: center;
     padding: 20px;
